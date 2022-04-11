@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cdp.agenda"
+    android:versionCode="2"
+    android:versionName="1.1"
+    >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".NuevoActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".medicos_nuevo"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".PerfilActivity"
+            android:parentActivityName=".MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".CorrerActivity"
+            android:parentActivityName=".ActividadFisicaActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ActividadFisicaActivity" />
+        </activity>
+        <activity
+            android:name=".BicicletaActivity"
+            android:parentActivityName=".ActividadFisicaActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ActividadFisicaActivity" />
+        </activity>
+        <activity
+            android:name=".CaminarActivity"
+            android:parentActivityName=".ActividadFisicaActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ActividadFisicaActivity" />
+        </activity>
+        <activity
+            android:name=".OtraActividadActivity"
+            android:parentActivityName=".ActividadFisicaActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ActividadFisicaActivity" />
+        </activity>
+        <activity
+            android:name=".ActividadFisicaActivity"
+            android:parentActivityName=".PerfilActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PerfilActivity" />
+        </activity>
+        <activity
+            android:name=".ListarActividadesFisicasActivity"
+            android:parentActivityName=".ActividadFisicaActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ActividadFisicaActivity" />
+        </activity>
+        <activity
+            android:name=".verActividadesFisicasActivity"
+            android:parentActivityName=".ListarActividadesFisicasActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListarActividadesFisicasActivity" />
+        </activity>
+        <activity
+            android:name=".EditarActividadesFisicasActivity"
+            android:parentActivityName=".ListarActividadesFisicasActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListarActividadesFisicasActivity" />
+        </activity>
+
+        <activity
+            android:name=".ListarPacientes"
+            android:parentActivityName=".MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".VerActivity"
+            android:parentActivityName=".ListarPacientes">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListarPacientes" />
+        </activity>
+
+        <activity
+            android:name=".EditarActivity"
+            android:parentActivityName=".ListarPacientes">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListarPacientes" />
+        </activity>
+        <activity
+            android:name=".medicos_main"
+            android:parentActivityName=".MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".medicos_ver"
+            android:parentActivityName=".medicos_main">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".medicos_main" />
+        </activity>
+        <activity
+            android:name=".EditarMedicosActivity"
+            android:parentActivityName=".medicos_main">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".medicos_main" />
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Pacientes</string>
+    <string name="hint_usuario">Usuario:</string>
+    <string name="hint_contrasena">Contraseña:</string>
+    <string name="hint_nombre">Nombre:</string>
+    <string name="hint_dni">Dni:</string>
+    <string name="hint_nacimiento">Fecha Nacimiento:</string>
+    <string name="hint_direccion">Direccion:</string>
+    <string name="hint_telefono">Telefono:</string>
+    <string name="hint_correo_electronico">Correo electronico:</string>
+    <string name="hint_nivelGlucosa">Nivel de Glucosa:</string>
+    <string name="hint_descripcion">Descripcion:</string>
+    <string name="hint_actividad">Selecciona una actividad:</string>
+    <string name="hint_distancia">Distancia:</string>
+    <string name="hint_tiempo">Tiempo:</string>
+    <string name="hint_fecha">Fecha:</string>
+
+
+    <string name="btn_guarda">Guardar registro</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="btn_registrar">Crear Cuenta Paciente</string>
+    <string name="btn_registrarMedico">Crear Cuenta Medico</string>
+
+    <string name="btn_pacientes">Ver Pacientes</string>
+    <string name="btn_medicos">Ver Medicos</string>
+    <string name="btn_correr">Correr</string>
+    <string name="btn_caminar">Caminar</string>
+    <string name="btn_Bicicleta">Bicicleta</string>
+    <string name="btn_actividadFisica">Actividad Fisica</string>
+    <string name="btn_alimentacion">Alimentacion</string>
+    <string name="btn_reportes">Reportes</string>
+    <string name="btn_recomendaciones">Recomendaciones</string>
+    <string name="btn_comunicarme">Comunicarme con mi medico</string>
+    <string name="btn_miPerfil">Perfil</string>
+    <string name="btn_otro">Otro</string>
+    <string name="btn_verActividadesFisicas">Mis actividades</string>
+
+
+
+    <string name="menu_nuevo">Nuevo registro</string>
+</resources>

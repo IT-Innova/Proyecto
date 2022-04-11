@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".medicos_nuevo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/viewNombreMedico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre" />
+
+        <EditText
+            android:id="@+id/txtNombreMedico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:labelFor="@+id/viewNombreMedico"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewCipMedico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CIP" />
+
+        <EditText
+            android:id="@+id/txtCipMedico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:labelFor="@+id/viewCipMedico"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewDniMedico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DNI" />
+
+        <EditText
+            android:id="@+id/txtDniMedico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:labelFor="@+id/viewDniMedico"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewNacimientoMedico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha Nacimiento" />
+
+        <EditText
+            android:id="@+id/txtNacimientoMedico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="datetime"
+            android:labelFor="@+id/viewNacimientoMedico"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewExperienciaMedico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Años de Experiencia" />
+
+        <EditText
+            android:id="@+id/txtExperienciaMedico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:labelFor="@+id/viewExperienciaMedico"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewTelefonoMedico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telefono" />
+
+        <EditText
+            android:id="@+id/txtTelefonoMedico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:labelFor="@+id/viewTelefonoMedico"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewCorreoMedico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Correo Electronico" />
+
+        <EditText
+            android:id="@+id/txtCorreoMedico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewCorreoMedico"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnGuardaMedico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Guardar Registro"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>
